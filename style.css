@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+
+
+.li{
+    margin-top: 20px;
+    list-style-type: none;
+
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.card{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 30%;
+    height: 400px;
+    padding: 10px;
+}
+
+.maars_wapper{
+    display: flex;
+}
+
+.card1{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 50%;
+    height: 210px;
+    padding: 10px;
+    gap: 10px;
+}
+
+
+.card2{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 50%;
+    height: 210px;
+    padding: 10px;
+}
+
+
